@@ -2,16 +2,16 @@
 #include "application.h"
 
 // debugging options
-#define CLOUD_DEBUG_ON
-#define WEBHOOKS_DEBUG_ON
+//#define CLOUD_DEBUG_ON
+//#define WEBHOOKS_DEBUG_ON
 //#define STATE_DEBUG_ON
-#define DATA_DEBUG_ON
-#define SERIAL_DEBUG_ON
+//#define DATA_DEBUG_ON
+//#define SERIAL_DEBUG_ON
 //#define LCD_DEBUG_ON
 
 // keep track of installed version
 #define STATE_VERSION    3 // update whenver structure changes
-#define DEVICE_VERSION  "mfc 0.3.1" // update with every code update
+#define DEVICE_VERSION  "mfc 0.3.2" // update with every code update
 
 // scale controller
 #include "MFCController.h"
