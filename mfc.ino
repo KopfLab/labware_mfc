@@ -11,7 +11,7 @@
 
 // keep track of installed version
 #define STATE_VERSION    3 // update whenver structure changes
-#define DEVICE_VERSION  "mfc 0.3.2" // update with every code update
+#define DEVICE_VERSION  "mfc 0.3.3" // update with every code update
 
 // scale controller
 #include "MFCController.h"

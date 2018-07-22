@@ -87,7 +87,7 @@ void MFCController::construct() {
   // start data vector
   data.resize(6);
   data[0] = DeviceData(1, "P");
-  data[1] = DeviceData(2, "T", "degC"); // assume this is always in degC
+  data[1] = DeviceData(2, "T", "DegC"); // assume this is always in degC
   data[2] = DeviceData(5, "flow"); // volumetric
   data[3] = DeviceData(3, "flow"); // mass flow
   data[4] = DeviceData(4, "setpoint");
