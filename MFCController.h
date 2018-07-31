@@ -3,18 +3,6 @@
 #include "device/SerialDeviceController.h"
 
 // serial communication constants
-//#define MFC_DATA_REQUEST  "D00Z" // data request command
-//#define MFC_DATA_N_MAX    12
-// NOTE: consider making this dynamic but keep in mind that around 12 the 600 chars overflow for state info!
-// FIXME: not unusal to have 12 variables from the MFC (4 devices x 3 vars, what to do in this case?)
-
-// controll information
-//#define RS485TxControl    D3
-
-
-//#define MFC_DATA_DELIM 		   9  // value/variable pair delimiter (tab)
-//#define MFC_DATA_END         13 // end of data stream (return character)
-
 #define MFC_DATA_DELIM        32 // value delimiter (space)
 #define MFC_DATA_END          13 // end of data stream (return character)
 
