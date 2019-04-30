@@ -36,3 +36,10 @@
 
 # docs
 *.pdf
+
+# VS Code
+.vscode
+target
+
+# Particle
+*.bin
