@@ -41,5 +41,8 @@
 .vscode
 target
 
-# Particle
+# Compiled firmware
 *.bin
+
+# Libraries
+lib/
