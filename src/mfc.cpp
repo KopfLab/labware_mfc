@@ -1,5 +1,5 @@
 #pragma SPARK_NO_PREPROCESSOR // disable spark preprocssor to avoid issues with callbacks
-#include "application.h"
+#include "Particle.h"
 
 // debugging options
 //#define CLOUD_DEBUG_ON
